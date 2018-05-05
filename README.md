@@ -4,7 +4,7 @@ ESP8266 DIN mount relay *(DPDT@10A and SPST-NO@5A)* board with 433mHz RF receive
 Board features auto reset with set of GPIO0 LOW when uploading firmware via FTDI so you don't have to press any button to jump into program mode.
 
 ## Pictures
-![alt text](./Pictures/photo.png)
+![photo](./Pictures/photo.jpg)
 
 ## BOM
 ### Minimal components
