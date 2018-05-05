@@ -1,6 +1,10 @@
-# ESP_DIN
-ESP8266 DIN mount relay (DPDT@10A and SPST-NO@5A) board with 433mHz RF receiver or generic input 230VAC or DC (based on jumper and resistor) and temperature sensor (DS18B20 or DHT22). Power supply is good old fashioned style transformer so no noise generated - **radioamateur friendly**. I2C/two ins are accesible on 2.54mm header, for you to extend capabilities.
+# ESP8266 DIN mount relay
+ESP8266 DIN mount relay *(DPDT@10A and SPST-NO@5A)* board with 433mHz RF receiver or generic input 230VAC or DC (based on jumper and resistor) and temperature sensor (DS18B20 or DHT22). Power supply is good old fashioned style transformer so no noise generated - **radioamateur friendly**. I2C/two ins are accesible on 2.54mm header, for you to extend capabilities.
+
 Board features auto reset with set of GPIO0 LOW when uploading firmware via FTDI so you don't have to press any button to jump into program mode.
+
+## Pictures
+![alt text](./Pictures/photo.png)
 
 ## BOM
 ### Minimal components
@@ -29,14 +33,16 @@ Board features auto reset with set of GPIO0 LOW when uploading firmware via FTDI
 | 1 | Transformer | BV-EI-305-2050 EI30-1 | |
 | 1 | Wifi module | ESP8266-12 | |
 | 1 | LDO regulator | LM1117-3.3 | SOT223 |
-| 3 | Screw terminal | KF301-5.08-2P | *POWER & relays* |
-| 1 | Screw terminal | KF301-5.08-3P | *for IN & earth connection* |
-| 1 | Screw terminal | KF350-3.5-2P | *for button* |
-| 1 | Screw terminal | KF350-3.5-3P | *for temperature sensor* |
+| 3 | Screw terminal | KF301-5.08-2P | |
+| 1 | Screw terminal | KF301-5.08-3P | |
+| 1 | Screw terminal | KF350-3.5-2P | |
+| 1 | Screw terminal | KF350-3.5-3P | |
 | 1 | DIN case | Z100J PS | |
 
 
-### If RF is required *RF and IN can't work simultaneously*
+### If RF is required
+*RF and IN can't work simultaneously*
+
 | Qty | Component | Value | Package |
 |:---:| --------- | ----- | ------- |
 | 1 | RF reciever | RXB6 | |
@@ -46,7 +52,9 @@ Board features auto reset with set of GPIO0 LOW when uploading firmware via FTDI
 | 1 | Antenna conenctor | | SMA or u.fl connector |
 
 
-### If IN is required *RF and IN can't work simultaneously*
+### If IN is required
+*RF and IN can't work simultaneously*
+
 | Qty | Component | Value | Package |
 |:---:| --------- | ----- | ------- |
 | 1 | Diode | SL1M | SOD123 |
