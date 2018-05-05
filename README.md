@@ -6,7 +6,7 @@ Board features auto reset with set of GPIO0 LOW when uploading firmware via FTDI
 ### Minimal components
 
 | Qty | Component | Value | Package |
-| --- | --------- | ----- | ------- |
+|:---:| --------- | ----- | ------- |
 | 3 | Capacitor | 100n | 0805 |
 | 1 | Capacitor | 100uF/16V |  Ø5mm, grid 2.032mm |
 | 1 | Capacitor | 1000uF/16V | Ø10mm, grid 5mm |
@@ -35,18 +35,20 @@ Board features auto reset with set of GPIO0 LOW when uploading firmware via FTDI
 | 1 | Screw terminal | KF350-3.5-3P | *for temperature sensor* |
 | 1 | DIN case | Z100J PS | |
 
-If RF is required *RF and IN can't work simultaneously*
+
+### If RF is required *RF and IN can't work simultaneously*
 | Qty | Component | Value | Package |
-| --- | --------- | ----- | ------- |
+|:---:| --------- | ----- | ------- |
 | 1 | RF reciever | RXB6 | |
 | 1 | Capacitor | 100n | 0805 |
 | 1 | Capacitor | 0.47uF | SMA |
 | 1 | Capacitor | 10uF | SMA |
 | 1 | Antenna conenctor | | SMA or u.fl connector |
 
-If IN is required *RF and IN can't work simultaneously*
+
+### If IN is required *RF and IN can't work simultaneously*
 | Qty | Component | Value | Package |
-| --- | --------- | ----- | ------- |
+|:---:| --------- | ----- | ------- |
 | 1 | Diode | SL1M | SOD123 |
 | 1 | Opto-coupler | TLP185 | SOP04 |
 | 1 | Resistor | 0R | 2010 |
