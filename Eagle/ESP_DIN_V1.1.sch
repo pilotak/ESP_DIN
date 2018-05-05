@@ -28780,7 +28780,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IC1" library="my-opto" deviceset="TLP185" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="200K"/>
 <part name="D3" library="my-diode" deviceset="SL1*" device="" technology="M"/>
-<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF/16V"/>
@@ -28930,7 +28929,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="IC1" gate="G$1" x="162.56" y="-17.78"/>
 <instance part="R11" gate="G$1" x="137.16" y="-15.24"/>
 <instance part="D3" gate="G$1" x="147.32" y="-17.78" rot="R90"/>
-<instance part="GND15" gate="1" x="170.18" y="-33.02"/>
 <instance part="+3V13" gate="G$1" x="177.8" y="0"/>
 <instance part="R13" gate="G$1" x="177.8" y="-25.4" rot="R90"/>
 <instance part="C5" gate="G$1" x="203.2" y="-22.86"/>
@@ -29509,11 +29507,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="EMIT"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="170.18" y1="-20.32" x2="170.18" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="-20.32" x2="177.8" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="170.18" y="-20.32"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="-20.32" x2="193.04" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="177.8" y="-20.32"/>
