@@ -1,5 +1,5 @@
 # ESP8266 DIN mount relay
-ESP8266 DIN mount relay *(DPDT@10A and SPST-NO@5A)* board with 433mHz RF receiver or generic input 230VAC or DC (based on jumper and resistor) and temperature sensor (DS18B20 or DHT22). Power supply is good old fashioned style transformer so no noise generated - **radioamateur friendly**. I2C/two ins are accesible on 2.54mm header, for you to extend capabilities.
+ESP8266 DIN mount relay *(DPDT@10A and SPST-NO@5A)* board with 433mHz RF receiver or generic input 230VAC or DC (based on jumper and resistor) and temperature sensor (DS18B20 or DHT22). Power supply is good old fashioned style transformer so no noise generated - **radioamateur friendly**. I2C/two pins are accesible on 2.54mm header, for you to extend capabilities.
 
 Board features auto reset with set of GPIO0 LOW when uploading firmware via FTDI so you don't have to press any button to jump into program mode.
 
@@ -42,7 +42,6 @@ Board features auto reset with set of GPIO0 LOW when uploading firmware via FTDI
 
 
 ### If RF is required
-*RF and IN can't work simultaneously*
 
 | Qty | Component | Value | Package |
 |:---:| --------- | ----- | ------- |
@@ -54,7 +53,6 @@ Board features auto reset with set of GPIO0 LOW when uploading firmware via FTDI
 
 
 ### If IN is required
-*RF and IN can't work simultaneously*
 
 | Qty | Component | Value | Package |
 |:---:| --------- | ----- | ------- |
